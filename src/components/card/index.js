@@ -2,13 +2,13 @@ import './card.css'
 
 const Card = ({ titulo, texto }) => {
     return (
-        <form>
-            <fieldset>
-                <legend>Formulario</legend>
-                    <input type = 'text' placeholder = 'Nome:'></input>
-                    <input type = 'email' placeholder = 'Email:'></input>
-                    <input type = 'password' placeholder = 'Senha:'></input>
-                    <button type = 'submit'>ENVIAR</button>
+        <form className="form_css">
+            <fieldset className= "fieldset_css">
+                <legend className="titulo_css">Formulário de cadastro</legend>
+                <input className="input_css" type='text' placeholder='Nome:'></input>
+                <input className="input_css" type='email' placeholder='Email:'></input>
+                <input className="input_css" type='password' placeholder='Senha:'></input>
+                <button className="send_button_css" type='submit'>ENVIAR</button>
             </fieldset>
         </form>
     );
