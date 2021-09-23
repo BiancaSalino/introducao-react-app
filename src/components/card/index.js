@@ -2,12 +2,15 @@ import './card.css'
 
 const Card = ({ titulo, texto }) => {
     return (
-        <div className="card">
-            <h1>{titulo}</h1>
-            <div>
-                {texto}
-            </div>
-        </div>
+        <form>
+            <fieldset>
+                <legend>Formulario</legend>
+                    <input type = 'text' placeholder = 'Nome:'></input>
+                    <input type = 'email' placeholder = 'Email:'></input>
+                    <input type = 'password' placeholder = 'Senha:'></input>
+                    <button type = 'submit'>ENVIAR</button>
+            </fieldset>
+        </form>
     );
 }
 
