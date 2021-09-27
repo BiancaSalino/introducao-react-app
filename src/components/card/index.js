@@ -13,34 +13,39 @@ const Card = ({ titulo, texto }) => {
             <div className="tabela">
                 <table>
                     <tr>
-                        <th className="titulo">NOME</th>
-                        <th >EMAIL</th>
-                        <th>SENHA</th>
-                        <th>AÇÕES</th>
+                        <th className="nome_css">NOME</th>
+                        <th className="email_css">EMAIL</th>
+                        <th className="senha_css">SENHA</th>
+                        <th className="acoes_css" colSpan="2">AÇÕES</th>
                     </tr>
                     <tr>
                         <td>Fulana da Silva</td>
                         <td>fulana@gmail.com</td>
                         <td>abc123</td>
-                        <td></td>
+                        <td className="td_buttons_css"><button className="edit_button_css">EDITAR</button></td> 
+                        <td className="td_buttons_css"><button className="delete_button_css">EXCLUIR</button></td>
                     </tr>
                     <tr>
                         <td>Fulana da Silva</td>
                         <td>fulana@gmail.com</td>
                         <td>abc123</td>
-                        <td></td>
+                        <td className="td_buttons_css"><button className="edit_button_css">EDITAR</button></td>
+                        <td className="td_buttons_css"><button className="delete_button_css">EXCLUIR</button></td>
                     </tr>
                     <tr>
                         <td>Fulana da Silva</td>
                         <td>fulana@gmail.com</td>
                         <td>abc123</td>
-                        <td></td>
+                        <td className="td_buttons_css"><button className="edit_button_css">EDITAR</button></td> 
+                        <td className="td_buttons_css"><button className="delete_button_css">EXCLUIR</button></td>
+                        
                     </tr>
                     <tr>
                         <td>Fulana da Silva</td>
                         <td>fulana@gmail.com</td>
                         <td>abc123</td>
-                        <td></td>
+                        <td className="td_buttons_css"><button className="edit_button_css">EDITAR</button></td> 
+                        <td className="td_buttons_css"><button className="delete_button_css">EXCLUIR</button></td>
                     </tr>
                    
                 </table>
