@@ -1,3 +1,7 @@
+.input_css::placeholder{
+    color: black;
+    padding-left: 5px;
+}
 .card {
     border: 1px solid gray;
     border-radius: 5px;
@@ -29,6 +33,7 @@
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+    
 }
 
 /* .form_css{
@@ -44,6 +49,7 @@ body{
     color: #696969;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -57,4 +63,33 @@ body{
     color: white;
     border-radius: 5px;
     font-weight: bold;
+}
+.tabela{
+    margin-top: 20px;
+    
+}
+table{
+    border: 1px solid rgb(60, 255, 0) ;
+    
+}
+th{
+    border: 1px solid rgb(81, 255, 0) ;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px; 
+}
+td{
+    border: 1px solid rgb(81, 255, 0) ;
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;  
+}
+.titulo{
+    color: rgb(0, 153, 255);
+    margin-top: 20px;
+    
 }
