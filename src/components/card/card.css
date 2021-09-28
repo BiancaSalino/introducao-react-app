@@ -1,25 +1,6 @@
 .input_css::placeholder{
     color: black;
     padding-left: 5px;
-    resize: none;
-}
-.card {
-    border: 1px solid gray;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.card h1 {
-    border-bottom: 1px solid gray;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.card div {
-    text-align: justify;
 }
 
 .fieldset_css{
@@ -34,12 +15,8 @@
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px; 
-    box-sizing: border-box;
+    cursor: text;
 }
-
-/* .form_css{
-    padding-left: 300px;
-} */
 
 body{
     margin-left: 200px;
@@ -67,9 +44,9 @@ body{
     font-size: large;
     border: transparent;
 }
+
 .tabela{
-    margin-top: 20px;
-    
+    margin-top: 20px; 
 }
 
 th{
@@ -139,6 +116,7 @@ td{
     font-size: large;
     height: 40px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .delete_button_css{
@@ -153,6 +131,7 @@ td{
     align-items: center;
     margin-left: 30px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .td_buttons_css{
